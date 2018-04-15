@@ -1,9 +1,11 @@
 ---
 layout: post
-title: You're up and running!
+title: Why this blog?
 ---
-Merhaba
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+
+Hi all,
+I have been working as a Software Engineer with over 8 years. So I've decided to share my knowledge with you and this  is also an opportunity to improve myself. 
+Personally, I like learn new things. I will share what I learn about Data Science, Big Data, Artificial Intelligence, Machine Learning, Deep Learning and more...
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
