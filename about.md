@@ -4,12 +4,4 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+Hey, My name is Bertan. I am a Software Engineer. I am Data Science, Machine Learning, Deep Learning, and AI Enthusiast. This site is aims to share what I learn from Artificial Intelligence.
