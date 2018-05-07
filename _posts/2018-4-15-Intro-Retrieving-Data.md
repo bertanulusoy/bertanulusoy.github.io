@@ -72,13 +72,15 @@ cnt\n1,2011-01-01,1,0,1,0,6,0,2,0.344167,0.363625,0.805833,0.160446,331,654,985\
 As you can see there are newline characters("\n") inside our data. We need to change the display using these new line characters in order to be able to view our data more clean. In fact, our whole goal is to bring our data to the tabular shape to work with columns and rows easily. The magic keyword is 'split'. If you give any character to 'split' function, it breaks up according to that character and gives you back a new list. Let's do it.
 
 {% highlight python %}
-  rows = data.split("\n") # this will return a list
+  # this will return a list
+  rows = data.split("\n") 
 {% endhighlight %}
 
 With this line of code we get list type of data. Let's get just 10 rows from it.
 
 {% highlight python %}
-  rows[0:11] # except first row
+  # except first row
+  rows[0:11] 
 {% endhighlight %}
 
 when you execute, the output will be...
@@ -101,7 +103,8 @@ We're even closer to our goal. :)
 Now, we need to get rid of first line(header) of rows data because we will not need it when we play with the data. When we need it, we already have the rows variable above which has header.
 
 {% highlight python %}
-  # exclude first row. So slice from index 1 to length of our list. 
+  # Exclude first row. 
+  # So slice from index 1 to length of our list. 
   data_with_no_header = rows[1:len(rows)]
 {% endhighlight %}
 
